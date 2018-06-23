@@ -4,13 +4,11 @@ Input :- 2 n x n square matrices
 
 Output :- Compute their matrix multiplication
 
-    | a  |  b |        | e  |  f |
-X =	|----|----| ;  Y = |----|----|
-    | c  |  d |        | g  |  h |
+    | a | b | e | f |
+    | c | d | g | h |
 	
-	  | ae + bg | af + bh |   | P5 + P4 - P2 - P6 | P1 + P2           |
-X.Y = |---------|---------| = |-------------------|-------------------|
-      | ce + dg | cf + dh |   | P3 + P4           | P1 + P5 - P3 - P7 |
+	  | ae + bg | af + bh | P5 + P4 - P2 - P6 | P1 + P2           |
+      | ce + dg | cf + dh | P3 + P4           | P1 + P5 - P3 - P7 |
 
 Algorithm :- 
 
